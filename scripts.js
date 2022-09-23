@@ -1,3 +1,5 @@
+// Test comment for my first commit! - JP
+
 const cards = document.querySelectorAll('.memory-card');//cards is a list of all elements called memory-card
 
 let hasFlippedCard = false;     //is first or second card flipped flag
