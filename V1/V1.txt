@@ -1,0 +1,20 @@
+Creating HTML container and cards
+
+
+CSS
+
+Border-box means outer box won’t be resized but inner components will have to be fitted
+
+vh stands for viewport height – using 100% of viewport height
+
+
+
+HTML
+
+A container div called memory-game 
+This holds memory-card divs that contain the 2 images for front and back of card
+each image is in there twice as to match together
+
+SCRIPT
+
+no script yet
