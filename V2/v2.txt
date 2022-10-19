@@ -1,0 +1,25 @@
+Sizing and fitting the cards to container
+
+CSS
+
+create borders around game and card objects
+
+add 640 pixel width & height to container
+
+add width and height to memory cards
+
+add flex and wrap to container to get cards in position
+
+position relative so images are set to the memory card
+
+display flex to body and margin auto to container centers it
+
+make a click effect
+.memory-card:active - is when the card is clicked
+
+
+HTML
+
+
+
+SCRIPT
