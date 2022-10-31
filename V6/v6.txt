@@ -1,0 +1,15 @@
+in this version we will be adding  start and finish page
+
+SCRIPT
+    
+   Add counter so when game won move to end page - 
+   Will use localStorage to pass the score to the end page
+
+CSS
+     Add setup for start and end page
+
+
+HTML
+    Add start and end page
+    small amount of script to get the score
+    
