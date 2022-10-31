@@ -1,0 +1,52 @@
+*{          /*for whole page*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+
+    background: blue;
+}
+.memory-game {         /*memory game container*/
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid lime;
+    perspective: 1000px;    /*creates 3d space for cards to go in */
+}
+
+.memory-card {                      /*memory cards*/
+    width: 25%;                     /*fit into container*/
+    height: 33.333%;
+    position: relative;
+    border: 2px solid aqua;
+    transform-style: preserve-3d;   /*insert the cards into the 3d sapce*/
+    transition: transform .5s;      /*3D effect*/
+}
+
+.memory-card:active{                /*when card clicked*/
+    transform: scale(.97);
+    
+}
+
+.memory-card.flip{                  /*when flip is added to card class*/
+    transform: rotateY(180deg);     /*rotate card*/
+}
+
+
+.front-face,                        /*photos in cards both sides*/
+.back-face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: ppx solid deeppink;
+    backface-visibility: hidden;    /*this stops the card just reversing the photo*/
+}
+
+.front-face{                        /*this retates the front face of card to screen*/
+    transform: rotateY(180deg);
+}    

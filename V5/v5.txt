@@ -1,0 +1,31 @@
+Issues/Bugs
+
+
+1)More than 2 cards can be turned - need to lock board until cards unflipped
+
+2)Same card can be clicked twice, this will be recognised as a match
+
+3)Need to shuffle cards
+
+SCRIPT
+    1)lockBoard variable for board locked or not
+    will not run flipCard if board locked
+    this is set and removed in the unflip(resetBoard) cards function.
+
+    2)to stop same card issue, we will check if firstcard is the same as
+    'this'(card clicked) and if so not continue.(in flipCard func)
+    this will need to be reset after each turn to allow card to be clicked on 
+    new turn (resetBoard function called from unFlipCards)
+
+    3)Each div(card) has an order property assigned to it. A random function is called
+    to assign a random number to the order between 1 and 12.
+    By putting the whole function in brackets it is run 
+    straight after its definition
+
+CSS
+     
+
+
+HTML
+
+    
