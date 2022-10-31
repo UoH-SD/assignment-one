@@ -1,0 +1,21 @@
+Store and match cards
+
+
+SCRIPT
+    added 2 variables to store states and what card
+    change and store state of cards in flipcard
+
+    function checkForMatch to see if cards same
+
+    function to remove event listeners if cards match
+    function to flip cards back if no match - this needs
+    a timer so we can see second card before flipped back
+
+
+CSS
+     
+
+
+HTML
+
+    add data-name to all photo divs so we can check for match
